@@ -1,0 +1,165 @@
+/* General Styling */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+#hero {
+    background-color: #C0D9EE;
+    height: 100vh;
+}
+
+.container {
+    width: 90%;
+    max-width: 1536px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+}
+
+.row {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-row {
+    align-items: center;
+}
+
+.col-text {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    padding: 100px;
+}
+
+.col-text h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 103px;
+    color: #2F1847;
+    font-weight: 800;
+}
+
+.col-text h3 {
+    font-family: "Raleway", sans-serif;
+    font-size: 28px;
+    color: #012622;
+    margin-top: 30px;
+    padding-right: 150px;
+}
+
+.col-text button {
+    border: 0;
+    border-radius: 8px;
+    background-color: #2F1847;
+    width: 250px;
+    padding: 15px 0;
+    font-size: 24px;
+    color: #fff;
+    font-family: "Raleway", sans-serif;
+    margin-top: 30px;
+}
+
+
+.col-image {
+    width: 30%;
+}
+
+.col-image img {
+    width: 100%;
+}
+
+#reasons {
+    /* height: 100vh; */
+    padding-bottom: 100px;
+}
+
+#reasons h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 56px;
+    color: #2F1847;
+    font-weight: 800;
+    margin: 50px 0;
+
+}
+
+#reasons row {
+    box-sizing: border-box;
+}
+
+#reasons .col {
+    box-sizing: border-box;
+    width: 25%;
+    padding: 0 20px;
+}
+
+#reasons .cards {
+    height: 400px;
+    border: 1px solid #2F1847;
+    border-radius: 12px;
+    padding: 20px;
+}
+
+#reasons .cards:hover {
+    background-color: #2F1847;
+}
+
+#reasons .cards:hover h1 {
+    color: white;
+}
+
+#reasons .cards:hover p {
+    color: white;
+}
+
+#reasons h1 {
+    font-size: 70px;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 20px;
+    color: #012622;
+}
+
+#reasons p {
+    font-size: 20px;
+    color: #012622;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+}
+
+.card-2 {
+    margin-top: 80px;
+}
+
+.card-3 {
+    margin-top: 160px;
+}
+
+.card-4 {
+    margin-top: 240px;
+}
+
+#footer {
+    background-color: #012622;
+    padding: 20px 0;
+    color: #fff;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+}
+
+@media(min-width: 768px) {}
+
+@media(min-width: 1024px) {
+    .row {
+        flex-direction: row;
+    }
+}
+
+@media(min-width: 1440px) {}
